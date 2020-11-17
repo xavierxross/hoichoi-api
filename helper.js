@@ -1,4 +1,4 @@
-const axios = require("axios");
+const axios = require("axios")
 const set = require("./settings")
 
 async function data(path) {
@@ -68,7 +68,7 @@ async function videoFetcher(gist) {
 async function token() {
     var tokenconfig = {
         method: "post",
-        url: "https://prod-api.viewlift.com/identity/signin?site=hoichoitv&deviceId=hoi-choi-un-official-a-p-i-" + settings.randomString,
+        url: "https://prod-api.viewlift.com/identity/signin?site=hoichoitv&deviceId=hoi-choi-un-official-a-p-i-" + set.randomString,
         headers: {
             'Content-Type': 'application/json'
         },
