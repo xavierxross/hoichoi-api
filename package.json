@@ -1,0 +1,29 @@
+{
+    "name": "hoichoi-api",
+    "version": "1.0.0",
+    "description": "Unofficial Hoichoi API",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/viewlift-ripper/hoichoi-api.git"
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "express": "^4.17.1"
+    },
+    "keywords": [
+        "hoichoi",
+        "hoichoi-tv",
+        "hoichoi-api",
+        "hoichoi-downloader"
+    ],
+    "author": "Viewlift Ripper",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/viewlift-ripper/hoichoi-api/issues"
+    },
+    "homepage": "https://github.com/viewlift-ripper/hoichoi-api#readme"
+}
