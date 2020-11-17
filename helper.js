@@ -1,5 +1,4 @@
 const axios = require("axios");
-const settings = require("./settings");
 const set = require("./settings")
 
 async function data(path) {
